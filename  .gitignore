@@ -3,7 +3,3 @@ composer.lock
 .phpunit.result.cache
 .env
 phpunit.xml.bak
-.DS_Store
-.idea
-.vscode
-*.log

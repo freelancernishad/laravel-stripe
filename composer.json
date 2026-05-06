@@ -9,14 +9,29 @@
             "email": "nishad@example.com"
         }
     ],
+    "keywords": [
+        "laravel",
+        "stripe",
+        "payment",
+        "gateway"
+    ],
     "require": {
         "php": "^8.2",
         "illuminate/support": "^11.0|^12.0",
         "stripe/stripe-php": "^10.0|^13.0|^17.0"
     },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0",
+        "phpunit/phpunit": "^10.0|^11.0"
+    },
     "autoload": {
         "psr-4": {
             "FreelancerNishad\\Stripe\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FreelancerNishad\\Stripe\\Tests\\": "tests/"
         }
     },
     "extra": {

@@ -24,7 +24,7 @@ return [
     |--------------------------------------------------------------------------
     */
     'models' => [
-        'payment' => \App\Models\Payment::class,
+        'payment' => null, // Override this in your project (e.g., \App\Models\Payment::class)
         'log' => \FreelancerNishad\Stripe\Models\StripeLog::class,
     ],
 ];
